@@ -262,7 +262,7 @@ local highlight_groups = {
 	--[[ 4.1. Text Analysis ]]
 	Comment     = {fg=gray, style='italic'},
 	NonText     = {fg=gray_darker},
-	EndOfBuffer = 'NonText',
+	EndOfBuffer = {fg=black},
 	Whitespace  = 'NonText',
 
 	--[[ 4.1.1. Literals]]
